@@ -69,7 +69,7 @@ html {
   
   
   #threat, #emergency-link {
-        position: relative;
+      position: relative;
       overflow: hidden;
       color: rgba(1, 8, 5, .7);
       background: linear-gradient(to right,  #ffd100, yellow 50%, rgba(1, 8, 5, 0) 50%);
@@ -78,7 +78,7 @@ html {
       -webkit-text-fill-color: transparent;
       background-size: 200% 100%;
       background-position: 100%;
-      transition: background-position 600ms ease;
+      transition: background-position 700ms ease;
       padding: 2px
   }
   
@@ -132,7 +132,7 @@ html {
   }
   
   #tribute-link {
-          position: relative;
+      position: relative;
       overflow: hidden;
       color: rgba(1, 8, 5, .7);
       background: linear-gradient(to right, hwb(58 3% 0%), yellow 50%, rgba(1, 8, 5, 0) 50%);
@@ -141,7 +141,7 @@ html {
       -webkit-text-fill-color: transparent;
       background-size: 200% 100%;
       background-position: 100%;
-      transition: background-position 600ms ease;
+      transition: background-position 700ms ease;
       padding: 2px;
       text-decoration: none;
   }
