@@ -35,7 +35,7 @@ html {
   }
   
   .sep {
-    color: #02fa65
+    border: 2px dotted #02fa65
   }
   
   #image {
