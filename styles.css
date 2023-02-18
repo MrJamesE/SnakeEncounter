@@ -1,0 +1,152 @@
+html {
+    background-color: #111212;
+  }
+  
+  main {
+    font-family: 'Press Start 2P', sans-serif;
+    color: #02fa65;
+    background-color: #111212
+    }
+  /* still trying to figure out animations */
+  h1 {
+      background-color: rgb(24, 23, 23);
+      color:  #272828;
+      background-image: linear-gradient(to right, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      animation: flow 5s ease-in-out infinite;
+      background-size: 200%;
+  }
+  
+  @keyframes flow {
+      0% {
+          background-position: 0 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          bottom-position: 0 50%;
+      }
+  }
+  
+  h1, h2, #closing {
+    text-align: center;
+  }
+  
+  .sep {
+    color: #02fa65
+  }
+  
+  #image {
+    width: 100%;
+    display: block;
+      margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #img-caption, #emergency-data {
+    padding: 5px;
+  }
+  
+  #emergency-link-text {
+    text-decoration: none;
+  }
+  
+  #img-div {
+    margin: auto;
+    width: 90%;
+    background-color: rgba(1, 8, 5, .7);
+    padding: 10px;
+    color: #02fa65;
+      box-shadow: 0 0 3px 1px #02fa65,
+      0 0 30px 2px rgba(61, 61, 61, 1);
+      border-radius: 90px;
+                  
+                
+  }
+  
+  
+  
+  #threat, #emergency-link {
+        position: relative;
+      overflow: hidden;
+      color: rgba(1, 8, 5, .7);
+      background: linear-gradient(to right,  #ffd100, yellow 50%, rgba(1, 8, 5, 0) 50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+      transition: background-position 600ms ease;
+      padding: 2px
+  }
+  
+  #threat:hover {
+     background-position: 0 100%; 
+  }
+  
+  
+  #img-caption:hover  #threat {
+    background-position: 0 100%;
+  }
+  
+  
+  #emergency-data:hover  #emergency-link {
+    background-position: 0 100%;
+  }
+  
+  #info-container {
+    padding: 30px;
+  }
+  
+  .catagories {
+    padding-bottom: 25px;
+  }
+  
+  .emergency {
+    color: red;
+  }
+  
+  
+  
+  #closing {
+    width: 80%;
+    text-align: left;
+    padding: 20px;
+    color: #02fa65;
+  }
+  
+  #glow-text, #glow-text2 {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 3px black, 0 0 2px #02fa65, 0 0 8px green;
+    }
+    to {
+      text-shadow: 0 0 3px black, 0 0 3px #02fa65, 0 0 15px #02fa65, 0 0 25px green;
+    }
+  }
+  
+  #tribute-link {
+          position: relative;
+      overflow: hidden;
+      color: rgba(1, 8, 5, .7);
+      background: linear-gradient(to right, hwb(58 3% 0%), yellow 50%, rgba(1, 8, 5, 0) 50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+      transition: background-position 600ms ease;
+      padding: 2px;
+      text-decoration: none;
+  }
+  
+  #closing:hover #tribute-link {
+    background-position: 0 100%;
+  
+  }
