@@ -135,7 +135,7 @@ html {
       position: relative;
       overflow: hidden;
       color: rgba(1, 8, 5, .7);
-      background: linear-gradient(to right, hwb(58 3% 0%), yellow 50%, rgba(1, 8, 5, 0) 50%);
+      background: linear-gradient(to right, #ffd100, yellow 50%, rgba(1, 8, 5, 0) 50%);
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
