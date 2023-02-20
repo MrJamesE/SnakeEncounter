@@ -5,10 +5,12 @@ html {
 main {
   font-family: 'Press Start 2P', sans-serif;
   color: #02fa65;
-  background-color: #111212
+  background-color: #111212;
+  padding: 10px
   }
   /* still trying to figure out animations */
 h1 {
+  padding-bottom: 5px;
   background-color: rgb(24, 23, 23);
   color:  #272828;
   background-image: linear-gradient(to right, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c);
@@ -48,24 +50,20 @@ h1, h2, #closing {
               inset 0 0 25px 2px #02fa6578,
                0 0 1px 0px #02fa65 ;
   }
-  
-#img-caption, #emergency-data, #img-caption2 {
-  padding: 5px;
-  }
-  
+
 #emergency-link-text {
   text-decoration: none;
   }
   
 #img-div {
   margin: auto;
-  width: 90%;
+  width: 100%;
   background-color: rgba(1, 8, 5, 0.6);
-  padding: 10px;
-  padding-top: 15px;
+  padding: 15px;
+  padding-top: 5px;
   color: #02fa65;
   box-shadow: 0 0 3px 0px #02fa65,
-  0 0 30px 2px rgba(61, 61, 61, 1),
+  0 0 15px 2px rgb(89, 104, 88),
   inset 0 0 80px 0px #00b74919;
   border-radius: 90px;            
   }
@@ -117,7 +115,7 @@ h1, h2, #closing {
 #closing {
   width: 80%;
   text-align: left;
-  padding: 20px;
+  padding: 0px;
   color: #02fa65;
   }
   
@@ -147,7 +145,6 @@ h1, h2, #closing {
   background-size: 200% 100%;
   background-position: 100%;
   transition: background-position 700ms ease;
-  padding: 2px;
   text-decoration: none;
   }
   
@@ -155,11 +152,3 @@ h1, h2, #closing {
   background-position: 0 100%;
   }
 
-footer {
-  font-size: 9px;
-  text-align: center;
-  padding: 5px;
-  width: 80%;
-  margin: auto;
-  color: white
-  }
