@@ -45,9 +45,9 @@ h1, h2, #closing {
   display: block;
   margin: auto;
   border-radius: 180px;
-  box-shadow: inset 0 0 12px 1px rgba(0, 83, 18, 0.76),
-              inset 0 0 20px 2px rgba(128, 128, 128, 0.685),
-               0 0 2px 0px #02fa65 ;
+  box-shadow: inset 0 0 0px 0px rgb(1, 8, 5),
+              inset 0 0 20px 2px rgba(193, 236, 183, 0.562),
+               0 0 1px 0px #02fa65 ;
   }
   
 #img-caption, #emergency-data, #img-caption2 {
