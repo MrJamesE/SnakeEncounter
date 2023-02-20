@@ -1,6 +1,5 @@
 html {
   background-color: #111212;
-  cursor: crosshair;
   }
   
 main {
@@ -45,8 +44,8 @@ h1, h2, #closing {
   display: block;
   margin: auto;
   border-radius: 180px;
-  box-shadow: inset 0 0 0px 0px rgb(1, 8, 5),
-              inset 0 0 20px 2px rgba(193, 236, 183, 0.562),
+  box-shadow: inset 0 0 15px 0px rgba(181, 181, 181, 0.253),
+              inset 0 0 22px 2px #02fa6578,
                0 0 1px 0px #02fa65 ;
   }
   
