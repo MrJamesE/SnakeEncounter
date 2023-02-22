@@ -8,12 +8,13 @@ main {
   background-color: #111212;
   padding: 25px
   }
-  /* still trying to figure out animations */
+  
 h1 {
   background-color: rgb(24, 23, 23);
   color:  #272828;
   background-image: linear-gradient(to right, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent; 
   animation: flow 5s ease-in-out infinite;
   background-size: 200%;
@@ -54,8 +55,7 @@ h1, h2, #closing {
   width: 300px;
   perspective: 1000px;
   margin: auto;
-  background-color:
-}
+  }
 
 .earth-inner {
   position: relative;
@@ -64,12 +64,11 @@ h1, h2, #closing {
   height: 100%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  background-color:
-}
+  }
 
 .earth:hover .earth-inner {
   transform: rotateY(180deg);
-}
+  }
 
 .earth-front, .earth-back {
   font-size: 9px;
@@ -78,7 +77,7 @@ h1, h2, #closing {
   height: 100%;
   -webkit-backface-visibility-: hidden;
   backface-visibility: hidden;
-}
+  }
 
 #earth-front-image, #earth-back-image {
   border-radius: 180px;
@@ -91,7 +90,7 @@ h1, h2, #closing {
   transform: rotateY(180deg);
   height: 100%;
   width: 100%;
-}
+  }
 
 #earth-back-text {
   position: relative;
@@ -104,11 +103,11 @@ h1, h2, #closing {
   background-size: 200% 100%;
   background-position: 100%;
   transition: background-position 2500ms ease;
-}
+  }
 
 .earth:hover #earth-back-text {
   background-position: 0 100%;
-}
+  }
 
 #emergency-link-text {
   text-decoration: none;
@@ -184,7 +183,7 @@ h1, h2, #closing {
   animation: glow 1s ease-in-out infinite alternate;
   }
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 3px black, 0 0 2px #02fa65, 0 0 8px green;
     }
@@ -195,7 +194,7 @@ h1, h2, #closing {
 
 .glow-text:hover, #glow-text2:hover {
   background: #006913
-}
+  }
   
 #tribute-link {
   position: relative;
