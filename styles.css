@@ -192,6 +192,10 @@ h1, h2, #closing {
     text-shadow: 0 0 3px black, 0 0 3px #02fa65, 0 0 15px #02fa65, 0 0 25px green;
     }
   }
+
+.glow-text:hover, #glow-text2:hover {
+  background: #006913
+}
   
 #tribute-link {
   position: relative;
