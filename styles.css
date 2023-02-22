@@ -23,7 +23,6 @@ main {
   border-radius: 90px;            
   }
 
-  
 h1 {
   background-color: rgb(24, 23, 23);
   color:  #272828;
@@ -111,6 +110,7 @@ h1, h2, #closing {
   position: relative;
   overflow: hidden;
   color: rgba(1, 8, 5, .7);
+  padding-top: 2px;
   background: linear-gradient(to right, #ffd100, yellow 50%, rgba(1, 8, 5, 0) 50%);
   background-clip: text;
   -webkit-background-clip: text;
