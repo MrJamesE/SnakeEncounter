@@ -6,11 +6,10 @@ main {
   font-family: 'Press Start 2P', sans-serif;
   color: #02fa65;
   background-color: #111212;
-  padding: 15px
+  padding: 20px
   }
   /* still trying to figure out animations */
 h1 {
-  padding-bottom: 5px;
   background-color: rgb(24, 23, 23);
   color:  #272828;
   background-image: linear-gradient(to right, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c);
@@ -41,15 +40,75 @@ h1, h2, #closing {
   }
   
 #image {
-  
-  width: 95%;
+  width: 250px;
   display: block;
   margin: auto;
   border-radius: 180px;
-  box-shadow: inset 0 0 15px 0px rgba(181, 181, 181, 0.253),
-              inset 0 0 25px 2px #02fa6578,
+  box-shadow: inset 0 0 5px 0px rgba(181, 181, 181, 0.253),
+              inset 0 0 15px 0px #02fa6578,
                0 0 1px 0px #02fa65 ;
   }
+
+.earth {
+  height: 230px;
+  width: 300px;
+  perspective: 1000px;
+  margin: auto;
+  background-color:
+}
+
+.earth-inner {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  background-color:
+}
+
+.earth:hover .earth-inner {
+  transform: rotateY(180deg);
+}
+
+.earth-front, .earth-back {
+  font-size: 9px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility-: hidden;
+  backface-visibility: hidden;
+}
+
+#earth-front-image, #earth-back-image {
+  border-radius: 180px;
+  box-shadow: inset 0 0 1px 0px rgba(181, 181, 181, 0.253),
+              inset 0 0 10px 1px #02fa6578,
+               0 0 1px 0px #02fa65 ;
+  }
+
+.earth-back {
+  transform: rotateY(180deg);
+  height: 100%;
+  width: 100%;
+}
+
+#earth-back-text {
+  position: relative;
+  overflow: hidden;
+  color: rgba(1, 8, 5, .7);
+  background: linear-gradient(to right, #ffd100, yellow 50%, rgba(1, 8, 5, 0) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 2500ms ease;
+}
+
+.earth:hover #earth-back-text {
+  background-position: 0 100%;
+}
 
 #emergency-link-text {
   text-decoration: none;
@@ -78,7 +137,7 @@ h1, h2, #closing {
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 700ms ease;
+  transition: background-position 1000ms ease;
   padding: 2px
   }
   
@@ -119,7 +178,7 @@ h1, h2, #closing {
   color: #02fa65;
   }
   
-.glow-text, #glow-text2 {
+.glow-text, #glow-text2, #earth-front-text {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -144,7 +203,7 @@ h1, h2, #closing {
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 700ms ease;
+  transition: background-position 1000ms ease;
   text-decoration: none;
   }
   
