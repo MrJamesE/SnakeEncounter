@@ -19,7 +19,7 @@ main {
   color: #02fa65;
   box-shadow: 0 0 3px 0px #02fa65,
   0 0 15px 2px rgb(89, 104, 88),
-  inset 0 0 80px 0px #00b74919;
+  inset 0 0 80px 0px #00efd30e;
   border-radius: 90px;            
   }
 
@@ -50,26 +50,29 @@ h1, h2, #closing {
   text-align: center;
   }
   
+h2 {
+  padding-top: 25px;
+  }
+
 .sep {
   border: 2px dotted #02fa65
   }
   
-#image {
-  width: 250px;
-  display: block;
-  margin: auto;
-  border-radius: 180px;
-  box-shadow: inset 0 0 5px 0px rgba(181, 181, 181, 0.253),
-              inset 0 0 15px 0px #02fa6578,
-               0 0 1px 0px #02fa65 ;
+#snake-front-image,  #snake-back-image {
+  width:50%;
   }
 
 .earth {
-  height: 230px;
-  width: 300px;
+  height: 185px;
+  width: 250px;
   perspective: 1000px;
   margin: auto;
   }
+
+.snake {
+  height: 120px;
+  perspective: 1000px;
+}
 
 .earth-inner {
   position: relative;
@@ -80,11 +83,22 @@ h1, h2, #closing {
   transform-style: preserve-3d;
   }
 
+.snake-inner {
+  position: relative;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
 .earth:hover .earth-inner {
   transform: rotateY(180deg);
   }
 
-.earth-front, .earth-back {
+.snake:hover .snake-inner {
+  transform: rotateY(180deg);
+}
+
+.earth-front, .earth-back, .snake-front, .snake-back {
   font-size: 9px;
   position: absolute;
   width: 100%;
@@ -94,20 +108,23 @@ h1, h2, #closing {
   backface-visibility: hidden;
   }
 
-#earth-front-image, #earth-back-image {
+#earth-front-image, #earth-back-image, #snake-front-image, #snake-back-image, #map-img, #eyeballs, #unknown-snake {
   border-radius: 180px;
   box-shadow: inset 0 0 1px 0px rgba(181, 181, 181, 0.253),
-              inset 0 0 10px 1px #02fa6578,
-               0 0 1px 0px #02fa65 ;
-  }
-
-.earth-back {
+              inset 0 0 13px 1px #02fa6578,
+               0 0 3px 0px #02fa65;
+  background-image: linear-gradient(to right, #02fa650a, #1d351d11);
+  animation: flow .0001s ease-in-out infinite;
+  background-size: 200%;
+  }          
+  
+.earth-back, .snake-back {
   transform: rotateY(180deg);
   height: 100%;
   width: 100%;
   }
 
-#earth-back-text {
+#earth-back-text, #snake-back-text {
   position: relative;
   overflow: hidden;
   color: rgba(1, 8, 5, .7);
@@ -123,6 +140,10 @@ h1, h2, #closing {
 
 .earth:hover #earth-back-text {
   background-position: 0 100%;
+  }
+
+.snake:hover #snake-back-text {
+  background-position: 0 100%
   }
 
 #emergency-link-text {
@@ -165,6 +186,29 @@ h1, h2, #closing {
   padding: 30px;
   }
   
+#map-img {
+  width: 100%;
+  border-radius: 250px;
+}  
+
+#eyeballs {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+#unknown-snake {
+  width: 60%;
+  display: block;
+  margin: auto;
+  padding-bottom: 5px;
+  padding-top: 2px
+}
+
+#map-text, #eyeballs-text, #unknown-snake-text {
+  font-size: 8px;
+  text-align: center;
+}
 .catagories {
   padding-bottom: 25px;
   }
@@ -180,7 +224,7 @@ h1, h2, #closing {
   color: #02fa65;
   }
   
-.glow-text, #glow-text2, #earth-front-text {
+.glow-text, #glow-text2, #earth-front-text, #snake-front-text {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -198,6 +242,10 @@ h1, h2, #closing {
 .glow-text:hover, #glow-text2:hover {
   background: #006913
   }
+
+#tribute-conclusions {
+  text-align: center;
+}  
   
 #tribute-link {
   position: relative;
