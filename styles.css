@@ -224,7 +224,7 @@ h2 {
   color: #02fa65;
   }
   
-.glow-text, #glow-text2, #earth-front-text, #snake-front-text {
+.glow-text, #glow-text2, #earth-front-text, #snake-front-text, #top-link {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -265,3 +265,9 @@ h2 {
   background-position: 0 100%;
   }
 
+#top-link {
+  text-decoration: none;
+  color:#02fa65;
+  display: block;
+  text-align: center;
+  }
