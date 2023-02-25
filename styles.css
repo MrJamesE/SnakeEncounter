@@ -92,13 +92,17 @@ h2 {
 }
 
 #earth-front-image:hover, #snake-front-image:hover {
-  background-color:#006913
+  background-color:#006913;
+  cursor: pointer;
 }
+
+#earth-front-text:hover, #snake-front-text:hover {
+cursor: pointer;
+}
+
 .earth:focus .earth-inner {
   transform: rotateY(180deg);
   }
-
-
 
 .snake:focus .snake-inner {
   transform: rotateY(180deg);
@@ -107,7 +111,6 @@ h2 {
 .snake-back:focus .snake-inner {
   transform: rotateY(180deg);
 }
-
 
 .earth-front, .earth-back, .snake-front, .snake-back {
   font-size: 9px;
@@ -250,7 +253,8 @@ h2 {
   }
 
 .glow-text:hover, #glow-text2:hover, #top-link:hover {
-  background: #006913
+  background: #006913;
+  cursor: pointer;
   }
 
 #tribute-conclusions {
