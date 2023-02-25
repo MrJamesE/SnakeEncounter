@@ -55,7 +55,7 @@ h2 {
   }
 
 .sep {
-  border: 2px dotted #02fa65
+  border: 1px solid #02fa65
   }
   
 #snake-front-image,  #snake-back-image {
@@ -189,13 +189,13 @@ h2 {
 #map-img {
   width: 100%;
   border-radius: 250px;
-}  
+  }  
 
 #eyeballs {
   width: 60%;
   display: block;
   margin: auto;
-}
+  }
 
 #unknown-snake {
   width: 60%;
@@ -203,18 +203,22 @@ h2 {
   margin: auto;
   padding-bottom: 5px;
   padding-top: 2px
-}
+  }
 
 #map-text, #eyeballs-text, #unknown-snake-text {
-  font-size: 8px;
+  font-size: 9px;
   text-align: center;
-}
+  color: #43fa8c
+  }
 .catagories {
   padding-bottom: 25px;
   }
   
 .emergency {
-  color: red;
+  color:#43fa8c;
+  -webkit-animation: glow .5s ease-in-out infinite alternate;
+  -moz-animation: glow .5s ease-in-out infinite alternate;
+  animation: glow .5s ease-in-out infinite alternate;
   }
   
 #closing {
@@ -235,7 +239,7 @@ h2 {
     text-shadow: 0 0 3px black, 0 0 2px #02fa65, 0 0 8px green;
     }
     to {
-    text-shadow: 0 0 3px black, 0 0 3px #02fa65, 0 0 15px #02fa65, 0 0 25px green;
+    text-shadow: 0 0 3px black, 0 0 3px #02fa65, 0 0 15px #02fa65, 0 0 30px green;
     }
   }
 
@@ -245,7 +249,7 @@ h2 {
 
 #tribute-conclusions {
   text-align: center;
-}  
+  }  
   
 #tribute-link {
   position: relative;
