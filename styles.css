@@ -176,8 +176,7 @@ h2 {
 #img-caption2:hover  #behavior {
   background-position: 0 100%;
   }
-  
-  
+   
 #emergency-data:hover  #emergency-link {
   background-position: 0 100%;
   }
@@ -222,7 +221,7 @@ h2 {
   }
   
 #closing {
-  width: 80%;
+  width: 100%;
   text-align: left;
   padding: 0px;
   color: #02fa65;
