@@ -25,9 +25,9 @@ main {
   }
 
 h1 {
-  background-color: rgb(24, 23, 23);
-  color:  #272828;
-  background-image: linear-gradient(to right, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c, #02fa65, #023b0c);
+  background-color: rgba(1, 8, 5, 0);
+  color: rgba(1, 8, 5, 0.6);
+  background-image: linear-gradient(to right, #023b0c00, #02fa6500, #023b0c, #02fa65, #43fa8c, #02fa65, #023b0c, #02fa6500, #023b0c00);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; 
@@ -180,7 +180,7 @@ cursor: pointer;
   background-size: 200% 100%;
   background-position: 100%;
   transition: background-position 800ms ease;
-  padding: 2px
+  padding: 2px;
   }
   
 #threat:focus {
