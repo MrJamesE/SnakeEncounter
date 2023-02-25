@@ -129,7 +129,7 @@ h2 {
   overflow: hidden;
   color: rgba(1, 8, 5, .7);
   padding-top: 2px;
-  background: linear-gradient(to right, #ffd100, yellow 50%, rgba(1, 8, 5, 0) 50%);
+  background: linear-gradient(to right, #43fa8c, #43fa8c 50%, rgba(1, 8, 5, 0) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -154,7 +154,7 @@ h2 {
   position: relative;
   overflow: hidden;
   color: rgba(1, 8, 5, .7);
-  background: linear-gradient(to right,  #ffd100, yellow 50%, rgba(1, 8, 5, 0) 50%);
+  background: linear-gradient(to right,  #43fa8c, #43fa8c 50%, rgba(1, 8, 5, 0) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -243,7 +243,7 @@ h2 {
     }
   }
 
-.glow-text:hover, #glow-text2:hover {
+.glow-text:hover, #glow-text2:hover, #top-link:hover {
   background: #006913
   }
 
@@ -255,7 +255,7 @@ h2 {
   position: relative;
   overflow: hidden;
   color: rgba(1, 8, 5, .7);
-  background: linear-gradient(to right, #ffd100, yellow 50%, rgba(1, 8, 5, 0) 50%);
+  background: linear-gradient(to right, #43fa8c, #43fa8c 50%, rgba(1, 8, 5, 0) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
