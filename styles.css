@@ -135,7 +135,7 @@ h2 {
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 2500ms ease;
+  transition: background-position 1000ms ease;
   }
 
 .earth:hover #earth-back-text {
@@ -160,7 +160,7 @@ h2 {
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 1000ms ease;
+  transition: background-position 800ms ease;
   padding: 2px
   }
   
@@ -261,7 +261,7 @@ h2 {
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 1000ms ease;
+  transition: background-position 800ms ease;
   text-decoration: none;
   }
   
