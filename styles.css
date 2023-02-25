@@ -64,7 +64,7 @@ h2 {
 
 .earth {
   height: 185px;
-  width: 250px;
+  width: 300px;
   perspective: 1000px;
   margin: auto;
   }
@@ -97,9 +97,16 @@ h2 {
   transform: rotateY(180deg);
   }
 
+
+
 .snake:focus .snake-inner {
   transform: rotateY(180deg);
 }
+
+.snake-back:focus .snake-inner {
+  transform: rotateY(180deg);
+}
+
 
 .earth-front, .earth-back, .snake-front, .snake-back {
   font-size: 9px;
