@@ -90,11 +90,14 @@ h2 {
   transform-style: preserve-3d;
 }
 
-.earth:hover .earth-inner {
+#earth-front-image:hover, #snake-front-image:hover {
+  background-color:#006913
+}
+.earth:focus .earth-inner {
   transform: rotateY(180deg);
   }
 
-.snake:hover .snake-inner {
+.snake:focus .snake-inner {
   transform: rotateY(180deg);
 }
 
@@ -138,18 +141,14 @@ h2 {
   transition: background-position 1000ms ease;
   }
 
-.earth:hover #earth-back-text {
+.earth:focus #earth-back-text {
   background-position: 0 100%;
   }
 
-.snake:hover #snake-back-text {
+.snake:focus #snake-back-text {
   background-position: 0 100%
   }
 
-#emergency-link {
-  text-decoration: underline;
-  }
-  
 #threat, #emergency-link, #behavior {
   position: relative;
   overflow: hidden;
@@ -164,20 +163,20 @@ h2 {
   padding: 2px
   }
   
-#threat:hover {
+#threat:focus {
   background-position: 0 100%; 
   }
   
   
-#img-caption:hover  #threat {
+#img-caption:focus  #threat {
   background-position: 0 100%;
   }
 
-#img-caption2:hover  #behavior {
+#img-caption2:focus  #behavior {
   background-position: 0 100%;
   }
    
-#emergency-data:hover  #emergency-link {
+#emergency-data:focus  #emergency-link {
   background-position: 0 100%;
   }
   
@@ -263,8 +262,8 @@ h2 {
   transition: background-position 800ms ease;
   text-decoration: none;
   }
-  
-#closing:hover #tribute-link {
+
+#closing:focus #tribute-link {
   background-position: 0 100%;
   }
 
