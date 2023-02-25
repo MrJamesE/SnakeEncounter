@@ -14,7 +14,7 @@ main {
   margin: auto;
   width: 88%;
   background-color: rgba(1, 8, 5, 0.6);
-  padding: 15px;
+  padding: 5px;
   padding-top: 5px;
   color: #02fa65;
   box-shadow: 0 0 3px 0px #02fa65,
@@ -188,7 +188,7 @@ h2 {
   }
   
  #info-container {
-  padding: 30px;
+  padding: 3%;
   }
   
 #map-img {
@@ -197,16 +197,16 @@ h2 {
   }  
 
 #eyeballs {
-  width: 60%;
+  width: 80%;
   display: block;
   margin: auto;
   }
 
 #unknown-snake {
-  width: 60%;
+  width: 90%;
   display: block;
   margin: auto;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
   padding-top: 2px
   }
 
@@ -241,10 +241,10 @@ h2 {
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 3px black, 0 0 2px #02fa65, 0 0 8px green;
+    text-shadow: 0 0 3px black, 0 0 2px #02fa65, 0 0 10px green;
     }
     to {
-    text-shadow: 0 0 3px black, 0 0 3px #02fa65, 0 0 15px #02fa65, 0 0 30px green;
+    text-shadow: 0 0 3px black, 0 0 5px #43fa8c, 0 0 15px #43fa8c, 0 0 30px green;
     }
   }
 
