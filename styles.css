@@ -59,7 +59,7 @@ h2 {
   }
   
 #snake-front-image,  #snake-back-image {
-  width:50%;
+  width: 200px;
   }
 
 .earth {
@@ -70,7 +70,7 @@ h2 {
   }
 
 .snake {
-  height: 120px;
+  height: 70px;
   perspective: 1000px;
 }
 
