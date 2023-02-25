@@ -146,8 +146,8 @@ h2 {
   background-position: 0 100%
   }
 
-#emergency-link-text {
-  text-decoration: none;
+#emergency-link {
+  text-decoration: underline;
   }
   
 #threat, #emergency-link, #behavior {
