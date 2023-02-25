@@ -58,6 +58,12 @@ h2 {
 .sep {
   border: 1px solid #02fa65
   }
+
+.captions {
+  width:70%;
+  margin: auto;
+  padding-top: 10px;
+}  
   
 #snake-front-image,  #snake-back-image {
   width: 200px;
