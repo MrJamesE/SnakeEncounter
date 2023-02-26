@@ -197,6 +197,10 @@ cursor: pointer;
   padding: 2px;
   }
 
+#img-caption, #img-caption2, #emergency-data {
+  font-size: 12px;
+}  
+
 #emergency-link-text {
   text-decoration: none;
 }
@@ -296,6 +300,10 @@ cursor: pointer;
   transition: background-position 800ms ease;
   text-decoration: none;
   }
+
+#closing {
+  font-size: 12px;
+}
 
 #closing:focus #tribute-link {
   background-position: 0 100%;
