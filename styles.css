@@ -147,9 +147,10 @@ cursor: pointer;
 
 #earth-front-image, #earth-back-image, #snake-front-image, #snake-back-image, #map-img, #eyeballs, #unknown-snake {
   border-radius: 180px;
+  border: 0px solid black;
   box-shadow: inset 0 0 1px 0px rgba(181, 181, 181, 0.253),
               inset 0 0 13px 1px #02fa6578,
-               0 0 3px 0px #02fa65;
+               0 0 8px 0px #43fa8cc3;
   background-image: linear-gradient(to right, #02fa650a, #1d351d11);
   animation: flow .0001s ease-in-out infinite;
   background-size: 200%;
