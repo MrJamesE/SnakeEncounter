@@ -48,7 +48,7 @@ h1 {
   }
   
 #header-snake {
-  width: 100px;
+  width: 150px;
   display: block;
   margin: auto;
   background-image: linear-gradient(to right, #023b0c00, #02fa6500, #023b0c, #02fa65, #43fa8c, #02fa65, #023b0c, #02fa6500, #023b0c00);
@@ -63,6 +63,10 @@ h1, h2, #closing {
 h2 {
   padding-top: 25px;
   }
+
+#quick-facts {
+  border: solid 1px;
+}  
 
 .sep {
   border: 1px solid #02fa65
@@ -191,8 +195,11 @@ cursor: pointer;
   background-position: 100%;
   transition: background-position 800ms ease;
   padding: 2px;
-  text-decoration: none;
   }
+
+#emergency-link-text {
+  text-decoration: none;
+}
   
 #threat:focus {
   background-position: 0 100%; 
