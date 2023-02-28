@@ -48,7 +48,7 @@ h1 {
   }
   
 #header-snake {
-  width: 150px;
+  width: 200px;
   display: block;
   margin: auto;
   background-image: linear-gradient(to right, #023b0c00, #02fa6500, #023b0c, #02fa65, #43fa8c, #02fa65, #023b0c, #02fa6500, #023b0c00);
@@ -56,11 +56,19 @@ h1 {
   background-size: 200%;
 }  
 
-h1, h2, #closing {
+#description {
+  font-size: 15px;
+}
+
+h2, h3 {
+  color: #43fa8c
+}
+
+h1, h2, h3, #closing {
   text-align: center;
   }
   
-h2 {
+h3 {
   padding-top: 25px;
   }
 
@@ -69,7 +77,7 @@ h2 {
 }  
 
 .sep {
-  border: 1px solid #02fa65
+  border: 1px solid #02fa65da
   }
 
 .captions {
