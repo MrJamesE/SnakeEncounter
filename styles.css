@@ -80,9 +80,9 @@ h3 {
 #navbar {
   margin: auto;
   width: 80%;
-  height: 4%;
+  height: 7%;
   text-align: center;
-  padding: 5px; 
+  padding-top: 5px; 
 }
 
 .nav-link {
@@ -90,8 +90,10 @@ h3 {
   color:#02fa65;
   font-size: 12px;
   padding: 5px;
-  border-top: 1px solid;
+  border-top: 2px solid;
   border-right: 2px solid;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
   display: inline-block; 
 }
 
