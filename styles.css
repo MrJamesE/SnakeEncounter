@@ -16,7 +16,7 @@ main {
   margin: auto;
   background-color: #010805;
   padding: 5px;
-  padding-top: 5px;
+  padding-top: 10px;
   color: #02fa65;
   box-shadow: 0 0 3px 0px #02fa65,
   0 0 15px 2px rgb(89, 104, 88),
@@ -60,6 +60,7 @@ h1 {
   font-size: 15px;
 }
 
+
 h2, h3 {
   color: #43fa8c
 }
@@ -75,6 +76,30 @@ h3 {
 #quick-facts {
   border: solid 1px;
 }  
+
+#navbar {
+  margin: auto;
+  width: 80%;
+  height: 4%;
+  text-align: center;
+  padding: 5px; 
+}
+
+.nav-link {
+  text-decoration: none;
+  color:#02fa65;
+  font-size: 12px;
+  padding: 5px;
+  border-top: 1px solid;
+  border-right: 2px solid;
+  display: inline-block; 
+}
+
+.nav-link:hover {
+  background-color: #006913;
+  border: 2px solid;
+}
+
 
 .sep {
   border: 1px solid #02fa65da
@@ -94,11 +119,12 @@ h3 {
   }
 
 .earth {
-  height: 350px;
-  width: 300px;
+  height: 330px;
+  width: 310px;
   perspective: 1000px;
   margin: auto;
   padding-top: 25px;
+  float: right;
   }
 
 .snake {
@@ -329,3 +355,15 @@ cursor: pointer;
   display: block;
   text-align: center;
   }
+
+  @media only screen and (max-width: 700px) {
+
+  .earth {
+    float: none;
+  }
+
+  .nav-link {
+    border: 2px solid;
+  }
+
+}
