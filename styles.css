@@ -102,7 +102,7 @@ h3 {
 
 
 .sep {
-  border: 1px solid #02fa65da
+  border: 1px solid #02fa65da;
   }
 
 .captions {
@@ -119,12 +119,14 @@ h3 {
   }
 
 .earth {
-  height: 330px;
-  width: 310px;
+  height: 340px;
+  width: 320px;
   perspective: 1000px;
   margin: auto;
   padding-top: 25px;
   float: right;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
   }
 
 .snake {
@@ -149,8 +151,8 @@ h3 {
 }
 
 #earth-front-image, #earth-back-image {
-  height: 250px;
-  width: 250px;
+  height: 290px;
+  width: 290px;
 }
 
 #earth-front-image:hover, #snake-front-image:hover {
@@ -360,6 +362,15 @@ cursor: pointer;
 
   .earth {
     float: none;
+    border-bottom: none;
+    border-right: none;
+    height: 300px;
+    width: 300px;
+  }
+
+  #earth-front-image, #earth-back-image {
+    height: 250px;
+    width: 250px;
   }
 
   .nav-link {
