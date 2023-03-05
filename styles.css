@@ -65,7 +65,7 @@ h2, h3 {
   color: #43fa8c
 }
 
-h1, h2, h3, #closing {
+h1, h2,  #closing {
   text-align: center;
   }
   
@@ -326,6 +326,10 @@ cursor: pointer;
   background: #006913;
   cursor: pointer;
   }
+
+#conclusion {
+  padding-top: 25px
+}
 
 #tribute-conclusions {
   text-align: center;
