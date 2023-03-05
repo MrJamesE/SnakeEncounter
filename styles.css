@@ -60,6 +60,9 @@ h1 {
   font-size: 15px;
 }
 
+#main-content {
+  padding-right: 15px
+}
 
 h2, h3 {
   color: #43fa8c
