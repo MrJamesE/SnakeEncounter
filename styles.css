@@ -322,7 +322,7 @@ cursor: pointer;
   color: #02fa65;
   }
   
-.glow-text, #glow-text2, #earth-front-text, #snake-front-text, #top-link {
+.glow-text, #glow-text2, #earth-front-text, #snake-front-text {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -376,7 +376,19 @@ cursor: pointer;
   text-decoration: none;
   color:#02fa65;
   display: block;
+  border-bottom: 2px dotted;
+  border-top: 2px dotted transparent;
+  border-right: 2px dotted transparent;
+  border-left: 2px dotted;
+  width: 150px;
+  padding: 7px;
+  margin: auto;
+  font-size: 13px;
   text-align: center;
+  }
+
+  #top-link:hover {
+    border: 2px solid;
   }
 
   @media only screen and (max-width: 700px) {
