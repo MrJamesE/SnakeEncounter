@@ -58,6 +58,7 @@ h1 {
 
 #description {
   font-size: 15px;
+  padding-bottom: 10px
 }
 
 #main-content {
@@ -93,8 +94,8 @@ h3 {
   color:#02fa65;
   font-size: 12px;
   padding: 5px;
-  border-top: 2px solid;
-  border-right: 2px solid;
+  border-top: 2px dotted;
+  border-right: 2px dotted;
   border-bottom: 2px solid transparent;
   border-left: 2px solid transparent;
   display: inline-block; 
@@ -107,7 +108,8 @@ h3 {
 
 
 .sep {
-  border: 1px solid #02fa65da;
+  border: 1px dotted #02fa65da;
+  padding-top: 0px
   }
 
 .captions {
@@ -128,10 +130,10 @@ h3 {
   width: 320px;
   perspective: 1000px;
   margin: auto;
-  padding-top: 25px;
+  padding-top: 0px;
   float: right;
-  border-right: 2px solid;
-  border-bottom: 2px solid;
+  border-right: 1px dotted;
+  border-bottom: 1px dotted;
   }
 
 .snake {
