@@ -1,3 +1,9 @@
+@media (prefers-reduced-motion: no-preference) {
+  h1, #header-snake {
+    animation: flow 5s ease-in-out infinite;
+  }
+}
+
 html {
   background-color: #111212;
   }
@@ -26,7 +32,7 @@ main {
 
 h1 {
   background-color: rgba(1, 8, 5, 0);
-  color: rgba(1, 8, 5, 0.6);
+  color:#02fa65;
   background-image: linear-gradient(to right, #023b0c00, #02fa6500, #023b0c, #02fa65, #43fa8c, #02fa65, #023b0c, #02fa6500, #023b0c00);
   -webkit-background-clip: text;
   background-clip: text;
@@ -49,6 +55,7 @@ h1 {
   
 #header-snake {
   width: 200px;
+  color:#02fa65;
   display: block;
   margin: auto;
   background-image: linear-gradient(to right, #023b0c00, #02fa6500, #023b0c, #02fa65, #43fa8c, #02fa65, #023b0c, #02fa6500, #023b0c00);
@@ -235,7 +242,6 @@ cursor: pointer;
 #threat, #emergency-link, #behavior {
   position: relative;
   overflow: hidden;
-  color: rgba(1, 8, 5, .7);
   background: linear-gradient(to right,  #43fa8c, #43fa8c 50%, rgba(1, 8, 5, 0) 50%);
   background-clip: text;
   -webkit-background-clip: text;
