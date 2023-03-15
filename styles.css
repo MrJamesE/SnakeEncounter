@@ -127,10 +127,6 @@ h3 {
   padding-top: 10px;
   text-align: center;
 }  
-  
-#snake-front-image,  #snake-back-image {
-  width: 200px;
-  }
 
 .earth {
   height: 340px;
@@ -143,11 +139,6 @@ h3 {
   border-bottom: 1px dotted;
   }
 
-.snake {
-  height: 70px;
-  perspective: 1000px;
-}
-
 .earth-inner {
   position: relative;
   text-align: center;
@@ -157,24 +148,17 @@ h3 {
   transform-style: preserve-3d;
   }
 
-.snake-inner {
-  position: relative;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
 #earth-front-image, #earth-back-image {
   height: 290px;
   width: 290px;
 }
 
-#earth-front-image:hover, #snake-front-image:hover {
+#earth-front-image:hover {
   background-color:#006913;
   cursor: pointer;
 }
 
-#earth-front-text:hover, #snake-front-text:hover {
+#earth-front-text:hover {
 cursor: pointer;
 }
 
@@ -182,15 +166,7 @@ cursor: pointer;
   transform: rotateY(180deg);
   }
 
-.snake:focus .snake-inner {
-  transform: rotateY(180deg);
-}
-
-.snake-back:focus .snake-inner {
-  transform: rotateY(180deg);
-}
-
-.earth-front, .earth-back, .snake-front, .snake-back {
+.earth-front, .earth-back {
   font-size: 10px;
   position: absolute;
   width: 100%;
@@ -200,7 +176,7 @@ cursor: pointer;
   backface-visibility: hidden;
   }
 
-#earth-front-image, #earth-back-image, #snake-front-image, #snake-back-image, #map-img, #eyeballs, #unknown-snake {
+#earth-front-image, #earth-back-image, #map-img, #eyeballs, #unknown-snake {
   border-radius: 180px;
   border: 0px solid black;
   box-shadow: inset 0 0 1px 0px rgba(181, 181, 181, 0.253),
@@ -211,13 +187,13 @@ cursor: pointer;
   background-size: 200%;
   }          
   
-.earth-back, .snake-back {
+.earth-back {
   transform: rotateY(180deg);
   height: 100%;
   width: 100%;
   }
 
-#earth-back-text, #snake-back-text {
+#earth-back-text {
   position: relative;
   overflow: hidden;
   color: rgba(1, 8, 5, .7);
@@ -233,10 +209,6 @@ cursor: pointer;
 
 .earth:focus #earth-back-text {
   background-position: 0 100%;
-  }
-
-.snake:focus #snake-back-text {
-  background-position: 0 100%
   }
 
 #threat, #emergency-link, #behavior {
@@ -439,6 +411,5 @@ cursor: pointer;
     padding-bottom: 25px;
     padding-top: 15px;
   }
-
-
 }
+
