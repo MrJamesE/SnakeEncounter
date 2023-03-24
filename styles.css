@@ -228,7 +228,7 @@ cursor: pointer;
   font-size: 13px;
 }  
 
-#emergency-link-text {
+#emergency-link-text, #brian-link {
   text-decoration: none;
 }
   
@@ -286,7 +286,7 @@ cursor: pointer;
   padding-bottom: 25px;
   }
   
-.emergency {
+.emergency, #brian-link {
   color:#43fa8c;
   -webkit-animation: glow .5s ease-in-out infinite alternate;
   -moz-animation: glow .5s ease-in-out infinite alternate;
@@ -315,7 +315,7 @@ cursor: pointer;
     }
   }
 
-.glow-text:hover, #glow-text2:hover, #top-link:hover {
+.glow-text:hover, #glow-text2:hover, #top-link:hover, #brian-link:hover {
   background: #006913;
   cursor: pointer;
   }
@@ -324,9 +324,18 @@ cursor: pointer;
   padding-top: 25px
 }
 
-#tribute-conclusions {
+#tribute-conclusions, #brian-text {
   text-align: center;
   }  
+
+#brian-link {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 2px dotted;
+  width: 300px;
+  margin: auto;
+}
   
 #tribute-link {
   position: relative;
